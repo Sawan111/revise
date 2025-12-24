@@ -1,5 +1,8 @@
 import { useState } from 'react'
 import './App.css'
+import './componets/cards'
+import Card from './componets/cards'
+import './componets/card.css'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -7,7 +10,14 @@ function App() {
   return (
     <>
       <div className="para">
-       <p id="para"> where i am</p>
+       <p id="para"> where i am {Card}</p>
+      </div>
+      <div className="cards"> 
+        
+        <Card/>
+        <Card/>
+      
+      
       </div>
       
       <div className="card">

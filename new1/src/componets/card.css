@@ -1,0 +1,16 @@
+.card{
+    width: 25%;
+    height: 50%;
+    border-radius: 1rem;
+    border: 1.2rem;
+    background-color: beige;
+    padding: 0.5rem;
+    margin:auto;
+    display: flex;
+    justify-content:center;
+
+}
+.imag{
+    border-radius: 50%;
+
+}

@@ -3,7 +3,7 @@
     height: 50%;
     border-radius: 1rem;
     border: 1.2rem;
-    background-color: rgb(209, 209, 51);
+    background-color: rgb(191, 217, 168);
     padding: 0.5rem;
     margin:auto;
     display: flex;
@@ -26,5 +26,5 @@
 }
 .imag:hover{
     scale: 1.2;
-    box-shadow:10px 20px 20px rgba(7, 7, 7, 0.3);
+    box-shadow:10px 20px 20px rgba(247, 5, 5, 0.3);
 }

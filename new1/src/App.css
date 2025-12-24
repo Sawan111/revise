@@ -7,38 +7,23 @@
 #para{
   color:white;
 }
-.cards{
- 
-  background-color: aqua;
-  border-radius: 2rem;
 
-}
 .card{
   margin: 2rem;
   justify-content: center;
 
 }
 .cards{
-    .cards{
-    width: 20%;
-    height: 40%;
+    
+    width: 80%;
+    height: 80%;
     border-radius: 1rem;
     border: 1.2rem;
-    background-color: rgb(191, 191, 129);
+    background-color: rgb(131, 78, 222);
     padding: 0.5rem;
-    margin:auto;
+    margin:1rem;
     display: flex;
     justify-content:center;
 
 }
-}
-
-
-
-
-
-
-
-
-
 

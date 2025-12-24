@@ -17,6 +17,13 @@ function App() {
       
       
       </div>
+      <div className="cards"> 
+        
+        <Card/>
+       
+      
+      
+      </div>
       
       <div className="card">
 

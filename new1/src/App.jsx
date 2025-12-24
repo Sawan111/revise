@@ -9,13 +9,11 @@ function App() {
 
   return (
     <>
-      <div className="para">
-       <p id="para"> where i am {Card}</p>
-      </div>
+      
       <div className="cards"> 
         
         <Card/>
-        <Card/>
+       
       
       
       </div>

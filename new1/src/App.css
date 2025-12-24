@@ -1,6 +1,6 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+  max-width: auto;
+  margin: auto;
   padding: 2rem;
  
 }
@@ -10,8 +10,27 @@
 .cards{
  
   background-color: aqua;
-  border-radius: 1rem;
+  border-radius: 2rem;
 
+}
+.card{
+  margin: 2rem;
+  justify-content: center;
+
+}
+.cards{
+    .cards{
+    width: 20%;
+    height: 40%;
+    border-radius: 1rem;
+    border: 1.2rem;
+    background-color: rgb(191, 191, 129);
+    padding: 0.5rem;
+    margin:auto;
+    display: flex;
+    justify-content:center;
+
+}
 }
 
 

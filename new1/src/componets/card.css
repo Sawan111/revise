@@ -1,16 +1,30 @@
-.card{
-    width: 25%;
+.car{
+    width: 50%;
     height: 50%;
     border-radius: 1rem;
     border: 1.2rem;
-    background-color: beige;
+    background-color: rgb(209, 209, 51);
     padding: 0.5rem;
     margin:auto;
     display: flex;
+    flex-direction:column;
     justify-content:center;
+    
 
 }
-.imag{
-    border-radius: 50%;
 
+.cont{
+  display: flex;
+  flex-direction: column; /* COLUMN layout */
+  align-items: center;
+  gap: 12px;
+}
+.imag{
+    border-radius:50%;
+    width: 50%;
+    height: 50%;
+}
+.imag:hover{
+    scale: 1.2;
+    box-shadow:10px 20px 20px rgba(7, 7, 7, 0.3);
 }
